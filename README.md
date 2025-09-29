@@ -76,11 +76,13 @@ This project demonstrates firewalling, segmentation, VPN, IDS/IPS, identity inte
 ---
 
 ## Repo Layout
-
-
-
-
-
+pfsense-lab/
+├─ README.md
+├─ docs/ # diagrams + screenshots + findings
+├─ pfsense/ # firewall configs + notes
+├─ srv/ # server configs + docker-compose
+├─ win/ # Windows setup + hardening notes
+└─ tests/ # attack + load test scripts
 
 ---
 
