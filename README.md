@@ -7,7 +7,7 @@ This project demonstrates firewalling, segmentation, VPN, IDS/IPS, identity inte
 
 ## Host System
 
-- **CPU:** 10 cores / 16 threads  
+- **CPU:** Intel CPU (10 cores / 16 threads)
 - **Memory:** 48 GB DDR4  
 - **Storage:** 2 TB HDD  
 - **GPU:** AMD RX 7600 (not required for lab, reserved for passthrough/optional workloads)  
