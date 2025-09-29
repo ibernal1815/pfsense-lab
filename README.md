@@ -77,3 +77,24 @@ This project demonstrates firewalling, segmentation, VPN, IDS/IPS, identity inte
 
 ## Repo Layout
 
+
+
+
+
+
+---
+
+## Key Outcomes
+
+- **3-VM segmented lab** on a single host with VLAN10/20/30 isolation  
+- **Security stack** with Suricata IDS/IPS, pfBlockerNG, and WireGuard VPN (MFA)  
+- **App hosting**: Docker web app in DMZ, sustained 3,000 req/min with TLS  
+- **Observability**: Sysmon + Winlogbeat → OpenSearch/Grafana, ingesting ~1,200 events/hour  
+
+---
+
+## Notes
+
+- All sensitive keys/secrets excluded via `.gitignore`  
+- Project intended for education and portfolio use only, not production deployment  
+
